@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2aa3b525497aff5419c5b5391b90c9e1
+guid: b1fe27f650390a44eb94018f66a4bd35
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7167368581567366201
-    second: Eksit_0
+      213: 8817491480792086066
+    second: Shopeco_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Eksit_0
+      name: Shopeco_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 1920
-        height: 600
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7cbb169df34688c90800000000000000
-      internalID: -7167368581567366201
+      spriteID: 23635a2e8c50e5a70800000000000000
+      internalID: 8817491480792086066
       vertices: []
       indices: 
       edges: []

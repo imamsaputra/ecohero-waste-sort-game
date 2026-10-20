@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 008c282ac4984a04eb9b7db97b424a96
+guid: fe225ebe505797f4a8fa0f81ca760ba2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3856465896403449788
-    second: Plei_0
+      213: 1908667941547095057
+    second: Exiteco_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Plei_0
+      name: Exiteco_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 1920
-        height: 600
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 448c67c13b41b7ac0800000000000000
-      internalID: -3856465896403449788
+      spriteID: 114371a5163fc7a10800000000000000
+      internalID: 1908667941547095057
       vertices: []
       indices: 
       edges: []
