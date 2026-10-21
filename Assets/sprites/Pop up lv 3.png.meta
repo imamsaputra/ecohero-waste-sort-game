@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a37dca024047767488d0555f12ef4e59
+guid: 2730fc5ccc9b6164da5fbc248df8d3b8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3453665247264247000
-    second: popupshop_0
+      213: 5232046401106498523
+    second: Pop up lv 3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: popupshop_0
+      name: Pop up lv 3_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1334
-        height: 1179
+        width: 1774
+        height: 887
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8dc0c4c7e32edef20800000000000000
-      internalID: 3453665247264247000
+      spriteID: bd350523b76fb9840800000000000000
+      internalID: 5232046401106498523
       vertices: []
       indices: 
       edges: []
