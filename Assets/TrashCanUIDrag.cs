@@ -1,27 +1,27 @@
 using UnityEngine;
-using UnityEngine.EventSystems; // Wajib untuk deteksi sentuhan/drag UI
+using UnityEngine.EventSystems;
+
+public enum TrashType { Organik, Anorganik }
 
 public class TrashCanUIDrag : MonoBehaviour, IDragHandler
 {
-    private RectTransform rectTransform;
-    private Canvas canvas;
+    public TrashType type;
+    RectTransform rt, canvasRect;
+    Canvas canvas;
 
     void Awake()
     {
-        rectTransform = GetComponent<RectTransform>();
-        // Mencari Canvas induk dari tong sampah
+        rt = GetComponent<RectTransform>();
         canvas = GetComponentInParent<Canvas>();
+        canvasRect = canvas.GetComponent<RectTransform>();
     }
 
-    // Fungsi ini otomatis berjalan saat tong sampah diseret/didrag
-    public void OnDrag(PointerEventData eventData)
+    public void OnDrag(PointerEventData e)
     {
-        if (canvas == null) return;
-
-        // Mengubah gerak mouse/sentuhan menjadi pergerakan posisi tong sampah
-        Vector2 currentPos = rectTransform.anchoredPosition;
-        currentPos.x += eventData.delta.x / canvas.scaleFactor; // Hanya mengubah posisi X (kanan-kiri)
-
-        rectTransform.anchoredPosition = currentPos;
+        Vector2 p = rt.anchoredPosition;
+        p.x += e.delta.x / canvas.scaleFactor;
+        float batas = canvasRect.rect.width / 2 - rt.rect.width / 2;
+        p.x = Mathf.Clamp(p.x, -batas, batas);
+        rt.anchoredPosition = p;
     }
 }
